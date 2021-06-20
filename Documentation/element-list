@@ -1,9 +1,0 @@
-module:org.example
-org.example
-org.example.Simulation.Agent.Abstractions
-org.example.Simulation.Agent.Enums
-org.example.Simulation.Agent.Interfaces
-org.example.Simulation.Agent.Subclasses
-org.example.Simulation.Handling
-org.example.Simulation.Handling.Family
-org.example.Simulation.Handling.Interaction

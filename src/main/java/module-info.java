@@ -1,4 +1,8 @@
-module org.example {
+module main {
     requires javafx.controls;
-    exports org.example;
+    requires junit;
+    requires org.junit.jupiter.api;
+    requires jdk.javadoc;
+    exports GUI;
+    exports Simulation.Handling.Statistics;
 }
