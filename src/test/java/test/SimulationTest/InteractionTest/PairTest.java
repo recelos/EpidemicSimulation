@@ -1,10 +1,10 @@
 package test.SimulationTest.InteractionTest;
 
-import Simulation.Agent.Interfaces.Interactive;
-import Simulation.Agent.Subclasses.Adult;
-import Simulation.Agent.Subclasses.Child;
-import Simulation.Agent.Subclasses.Elder;
-import Simulation.Handling.Interaction.Pair;
+import simulation.agent.abstractions.Interactive;
+import simulation.agent.implementations.Adult;
+import simulation.agent.implementations.Child;
+import simulation.agent.implementations.Elder;
+import simulation.handling.interaction.Pair;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

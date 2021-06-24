@@ -1,8 +1,9 @@
 package test.SimulationTest.InteractionTest;
 
-import Simulation.Agent.Abstractions.Agent;
-import Simulation.Agent.Subclasses.*;
-import Simulation.Handling.Family.FamilySegregator;
+import simulation.agent.abstractions.Agent;
+import simulation.agent.abstractions.IAgent;
+import simulation.agent.implementations.*;
+import simulation.handling.family.FamilySegregator;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -16,7 +17,7 @@ class FamilySegregatorTest {
 
     @Test
     void segregate() {
-        List<Agent> agents = new ArrayList<>();
+        List<IAgent> agents = new ArrayList<>();
 
         for(int i = 0; 101 > i; ++i){
             agents.add(new Adult());

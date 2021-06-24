@@ -3,6 +3,6 @@ module main {
     requires junit;
     requires org.junit.jupiter.api;
     requires jdk.javadoc;
-    exports GUI;
-    exports Simulation.Handling.Statistics;
+    exports gui;
+    exports simulation.handling.statistics;
 }
