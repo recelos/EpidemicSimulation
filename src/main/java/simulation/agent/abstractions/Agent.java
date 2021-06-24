@@ -10,7 +10,7 @@ import static simulation.handling.statistics.Counters.*;
 /**
  * Klasa abstrakcyjna agentów.
  */
-public abstract class Agent implements DiseaseSusceptible, Interactive, IAgent {
+public abstract class Agent implements IAgent {
     /**
      * Status zdrowotny agenta.
      */
