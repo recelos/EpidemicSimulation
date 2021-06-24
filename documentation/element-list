@@ -1,0 +1,12 @@
+module:main
+controller
+gui
+gui.windows
+simulation.agent.abstractions
+simulation.agent.implementations
+simulation.handling
+simulation.handling.agents
+simulation.handling.family
+simulation.handling.infected
+simulation.handling.interaction
+simulation.handling.statistics
