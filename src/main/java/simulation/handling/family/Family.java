@@ -36,8 +36,8 @@ public class Family {
     void infectMembers(){
         if(checkForInfected()){
             double odds = Math.random();
-
-            if(odds < 0.05)
+            double chanceToContain = 0.05;
+            if(odds < chanceToContain)
                 members.forEach(Interactive::catchDisease);
         }
     }
